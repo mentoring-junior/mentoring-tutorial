@@ -1,0 +1,12 @@
+{
+  "sounds": [
+    { "id": "s01", "title": "잔잔한 빗소리", "category": "자연", "duration_sec": 1800, "description": "창가에 떨어지는 부드러운 비", "is_premium": false },
+    { "id": "s02", "title": "깊은 숲속", "category": "자연", "duration_sec": 2400, "description": null, "is_premium": false },
+    { "id": "s03", "title": "파도와 모래", "category": "자연", "duration_sec": 3600, "description": "밤바다의 느린 파도", "is_premium": true },
+    { "id": "s04", "title": "델타파 수면", "category": "바이노럴", "duration_sec": 5400, "description": "깊은 수면을 돕는 저주파", "is_premium": true },
+    { "id": "s05", "title": "세타파 이완", "category": "바이노럴", "duration_sec": 1200, "description": null, "is_premium": false },
+    { "id": "s06", "title": "피아노 자장가", "category": "음악", "duration_sec": 1500, "description": "느린 템포의 피아노 연주", "is_premium": false },
+    { "id": "s07", "title": "화이트 노이즈", "category": "노이즈", "duration_sec": 3600, "description": "주변 소음을 가려주는 일정한 소리", "is_premium": false },
+    { "id": "s08", "title": "핑크 노이즈", "category": "노이즈", "duration_sec": 3600, "description": null, "is_premium": true }
+  ]
+}

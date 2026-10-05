@@ -1,0 +1,32 @@
+name: mini_sound_app
+description: "신입 온보딩 과제 — formebuds2의 음원 목록 화면을 아주 작게 줄인 연습용 앱."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 아래 세 개는 formebuds2와 같은 버전대다. 처음부터 넣어 두었으니
+  # 해당 과제에 가기 전까지는 신경 쓰지 않아도 된다.
+  flutter_riverpod: ^2.6.1 # 과제 3부터 사용
+  freezed_annotation: ^3.1.0 # 과제 2부터 사용
+  json_annotation: ^4.12.0 # 과제 2부터 사용
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # 코드 생성기 — `dart run build_runner build -d`로 실행한다 (과제 2)
+  build_runner: ^2.4.7
+  freezed: ^3.2.3
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds.json
