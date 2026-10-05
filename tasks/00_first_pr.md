@@ -8,6 +8,9 @@
 
 ## 할 일
 
+> 📘 시작하기 전에 **[PR 가이드](../docs/PR_GUIDE.md)** 의 "처음 한 번만: 준비"를 먼저 해 주세요.
+> 이번 과제는 가이드를 **처음부터 끝까지 한 번 따라 해 보는 것** 자체가 목표예요.
+
 1. `flutter pub get` → `flutter run`으로 앱을 실행해 보세요.
 2. 브랜치를 만드세요: `git switch -c task/00-first-pr`
 3. `lib/presentation/sound_list/sound_list_page.dart`에서
@@ -16,7 +19,8 @@
 4. `lib/main.dart`의 `colorSchemeSeed`를 좋아하는 색으로 바꿔 보세요.
    - 이번에는 `r`로 바뀌나요? 안 바뀌면 **`R`** (hot restart)을 눌러 보세요.
 5. `flutter analyze`를 돌려서 `No issues found!`가 나오는지 확인하세요.
-6. 커밋하고 push한 다음 PR을 올리세요.
+6. 커밋하고 push한 다음 PR을 올리세요. ([PR 가이드](../docs/PR_GUIDE.md)의 ②~④)
+7. 리뷰를 받고 머지되면, [PR 가이드](../docs/PR_GUIDE.md)의 ⑥대로 정리해요.
 
 ## 완료 기준
 
@@ -24,6 +28,8 @@
 - [ ] 앱 색이 바뀌었다
 - [ ] `flutter analyze` 결과가 깨끗하다
 - [ ] PR 양식을 채웠다
+- [ ] 리뷰어로 멘토를 지정했다
+- [ ] 머지 후 main을 pull하고 로컬 브랜치를 지웠다
 
 ## 생각해볼 질문 (PR에 짧게 적어 주세요)
 
